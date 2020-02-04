@@ -17,4 +17,4 @@ if (CMAKE_BUILD_TYPE MATCHES Release)
 endif()
 
 
-add_executable(matrix main.cpp mat.hpp mat.cpp mat.cpp mat.hpp main.cpp)
+add_executable(matrix main.cpp mat.hpp mat.cpp)
