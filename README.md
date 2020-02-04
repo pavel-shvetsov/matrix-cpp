@@ -2,7 +2,7 @@
 
 ### Testing environment
 * Ubuntu 18.04
-* CMake 2.10.2
+* CMake 3.10.2
 * g++ 7.4.0
 * git 2.17.1
 
