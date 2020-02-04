@@ -45,14 +45,13 @@ namespace test {
         mat &operator=(const mat &that);
 
         friend mat operator*(float scalar, const mat &mat_right);
-
         friend mat operator*(const mat &mat_left, float scalar);
+        friend std::ostream &operator<<(std::ostream &os, const mat &m);
+
     private:
         float *data;
         int r, c;
     };
-
-    std::ostream &operator<<(std::ostream &os, const mat &m);
 }
 
 #endif //MATRIX_MAT_HPP
