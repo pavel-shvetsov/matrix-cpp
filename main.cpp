@@ -2,9 +2,6 @@
 
 int main() {
     {
-        test::vec x(8);
-        std::cout << x << std::endl;
-
         std::cout << "Initial values" << std::endl;
         test::mat A{{ 8, 1, 2},
                     {-5, 6, 7}};
