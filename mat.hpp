@@ -27,6 +27,7 @@ namespace test {
     public:
         // Zero value ctor
         mat(int row_num, int col_num);
+        mat(int row_num);
 
         // Initializer list ctor
         mat(std::initializer_list<std::initializer_list<float>> lst);

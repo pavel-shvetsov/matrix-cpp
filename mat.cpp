@@ -16,6 +16,11 @@ namespace test {
         data = new float[row_num * col_num](); CREATE_INC
     }
 
+    mat::mat(int row_num): r(row_num), c(1) {
+        ASSERT(row_num > 0, "Number of elements should be positive.")
+        data = new float[row_num](); CREATE_INC
+    }
+
     mat::mat(std::initializer_list<std::initializer_list<float>> lst) {
         ASSERT(lst.size() > 0, "Initialisation list should not be empty")
         auto &l = lst.begin()[0];
