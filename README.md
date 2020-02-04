@@ -11,7 +11,7 @@
 sudo apt-get update
 sudo apt-get install build-essential git cmake
 cd ~/
-https://github.com/pavel-shvetsov/matrix-cpp.git
+git clone https://github.com/pavel-shvetsov/matrix-cpp.git
 mkdir matrix-cpp/build && cd matrix-cpp/build
 cmake .. && make
 ./matrix
